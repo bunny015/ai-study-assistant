@@ -1,0 +1,7 @@
+Large Language Models and Prompting
+
+A language model predicts tokens from context. Tokenization converts text into units that a model can process. A prompt is an instruction or context supplied to a model. System instructions establish high-level behavior, while user messages provide the current request.
+
+Retrieval-Augmented Generation, or RAG, adds external knowledge to a model request. A typical RAG pipeline loads documents, extracts text, creates chunks, computes embeddings, retrieves similar chunks for a query, and supplies the retrieved context to the language model. Source attribution should point to actual retrieved chunks.
+
+Prompt engineering uses carefully designed instructions and context to improve reliability and control output structure. It cannot guarantee factual correctness, so applications should validate inputs, handle failures, and ground answers when domain documents are available.

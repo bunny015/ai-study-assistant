@@ -1,0 +1,7 @@
+Python Object-Oriented Programming
+
+A class is a blueprint for creating objects. An object is an instance of a class. Inheritance allows a child class to reuse or extend attributes and methods of a parent class. Method overriding occurs when a child class provides its own implementation of a method inherited from the parent.
+
+Example: class Animal can define speak(). class Dog(Animal) can override speak() to provide a dog-specific implementation. The child class can also use inherited methods unless it replaces them.
+
+Encapsulation groups data and methods and can control access through conventions such as underscore-prefixed attributes and properties. Polymorphism means the same operation can work with objects of different types when they provide a compatible interface.

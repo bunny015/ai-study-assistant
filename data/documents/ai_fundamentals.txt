@@ -1,0 +1,7 @@
+Artificial Intelligence Fundamentals
+
+Artificial intelligence refers to computational systems designed to perform tasks that normally require capabilities associated with human intelligence, such as recognizing patterns, reasoning, understanding language, and making predictions.
+
+Machine learning is a branch of AI in which systems learn patterns from data. Supervised learning uses labeled examples. Unsupervised learning works with data without target labels and can be used for tasks such as clustering. A neural network uses interconnected computational units arranged in layers and learns parameters during training.
+
+Training adjusts model parameters to reduce an objective or loss. In neural networks, backpropagation computes gradients of the loss with respect to parameters, and an optimizer uses those gradients to update the parameters.
